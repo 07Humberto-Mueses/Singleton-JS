@@ -14,3 +14,6 @@ def test_palabra_con_mayusculas():
 
 def test_palabra_con_signos():
     assert es_palindromo("¿Acaso hubo buhos aca?") is True
+    
+print(es_palindromo("NeuQuen"))  # Debería mostrar True
+print(es_palindromo("python"))   # Debería mostrar False
