@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Ejecutar pruebas') {
             steps {
-                bat 'pytest'
+                bat 'pytest test_palindromo.py'
             }
         }
     }
